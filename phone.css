@@ -1,0 +1,115 @@
+#home,#services,#clients{
+	overflow: hidden;
+}
+
+/*Navigation bar*/
+#navbar{
+	flex-direction: column;
+	margin: auto;
+}
+#navbar ul li a {
+	padding: 30px 0px;
+}
+#navbar ul li a:hover {
+	position: absolute;
+	font-family: "Alegreya", serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	color:black;
+	background-color: white;
+	font-family: "Kiwi Maru", serif;
+	padding: 0px 6px;
+	margin: 0px 0px;
+}
+.mid{
+	font-size: 1rem;
+	padding: 4px 2px;
+	margin: 136px 490px;
+	/* padding-bottom: 8px; */
+}
+.item{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+/*Logo*/
+#logo img{
+	margin: 0px 154px;
+	height: 40px;
+	width: 40px;
+}
+#logo div{
+	margin: -3px 104px;
+	font-size: 16px;
+}
+/*Home-Section*/
+#home{
+	height: 270px;
+	padding: 3px 38px;
+}
+#home::before{
+	height: 704px;
+}
+#home p{
+	font-size: 13px;
+}
+/*Sevices-Section*/
+#services{
+	flex-direction: column;
+
+}
+#services .box img {
+    height: 75px;
+    margin: auto;
+    display: block;
+}
+#services .box h2{
+	font-size: 17px;
+}
+#services .box p{
+	font-size: 11.03px;
+}
+
+/*Client-Section*/
+#client-section::before{
+	width: 100%;
+	height: 52%;
+}
+#clients{
+	flex-wrap: wrap;
+}
+#clients img{
+	width: 50px;
+	height: 50px;
+	padding:  0 9px;
+}
+.client-item{
+	padding: 20px;
+}
+
+/*Contact Us-Section*/
+#contact-box input,
+#contact-box textarea{
+	width: 165%;
+	margin: 0px -52px;
+	padding: 0.5rem;
+	
+}
+#contact-box label{
+	margin: 4px -38px;
+}
+
+
+/*Footer*/
+
+/*Utility Classes*/
+.h-primary{
+	font-size: 26px;
+	margin: 0px 20px;
+}
+.btn{
+	font-size:13px;
+	padding: 4px 8px;
+}

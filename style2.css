@@ -1,0 +1,285 @@
+/* CSS Reset*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	scroll-behavior: smooth;
+
+}
+/*CSS Variables*/
+#logo img{
+    height: 10%;
+	width: 10%;
+	border: 3px solid rgb(125, 255, 4);
+	border-radius: 35px;
+}
+#logo div{
+	font-family: "Dancing Script", cursive;
+		font-weight: bolder;
+		font-style: normal;
+		font-size: 20px;
+        text-align: left;
+		justify-content: left;
+		background-color:rgb(23, 40, 3);
+		color: rgb(125, 255, 4);
+		margin: -4px 3.5px;
+		padding: 0px 14px;
+		position:absolute;
+		text-decoration: wavy;
+		border: 4px solid rgb(23,40, 3);
+		border-radius: 3px;
+}
+:root{
+	--navbar-height: 19px;
+}
+
+/*Navigation Bar*/
+.mid{
+	display: block;
+		width: 45%;
+		height: 0%;
+		margin: 20px 512px;
+		padding: 20px 23px;
+		border-radius: 5px;
+		font-size: 15px;}
+.item{
+	/* position: sticky; */
+	display: flex;
+	margin: -124px -350px;
+	padding: 12px 8px;
+}
+.item li{
+	display: inline-block;
+	font-size: 30px;
+}
+#navbar ul li a {
+	font-family: "Alegreya", serif;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: normal;
+	color:white;
+	text-decoration: none;
+	padding: 10px 10px;
+	font-size: large;
+	display: block;
+	border-radius: 20px;
+
+}
+#navbar ul li a:hover {
+	font-family: "Alegreya", serif;
+	font-size: 18.5px;
+	font-weight: bold;
+	font-style: normal;
+	color:black;
+	background-color: white;
+	font-family: "Kiwi Maru", serif;
+}
+#navbar::before{
+	content: "";
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 108.5%;
+	width: 100%;
+	opacity: 0.5;
+	z-index: -1;
+}
+
+
+/*Home Section*/
+#home{
+	display: flex;
+	flex-direction: column;
+	padding: 3px 200px;
+	height: 580px;
+	justify-content: center;
+	align-items: center;
+}
+#home::before{
+	content: "";
+	background:url('https://www.hdwallpapersfreedownload.com/uploads/large/fruits/gorgeous-mix-fresh-fruits-hd.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 108.5%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	/* bottom: 30px; */
+	opacity: 0.7;
+	z-index: -1;
+}
+#home h1{
+	color: white;
+	text-align: center;
+	font-family: "Merienda", cursive;
+	font-weight: bold;
+}
+#home p{
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: "Alice", serif;
+}
+/*Services Section*/
+#services{
+	margin:5px 34px;
+	display: flex;
+}
+#services .box{
+	border: 2px solid orangered;
+	padding: 34px;
+	margin: 3px 25px;
+	border-radius: 28px;
+	background-color: rgb(251, 205, 119);
+}
+#services .box img{
+	height: 156px;
+	margin: auto;
+	display: block;
+}
+
+#services .box h2{
+	font-family: "Courgette", cursive;
+	font-size: 2rem;
+		font-weight: bold;
+		font-style: normal;
+		text-align: center;
+		padding: 10px;
+}
+#services .box p{
+	font-family: "Philosopher", sans-serif;
+}
+/* .services-container{
+} */
+#services-container h1{
+	font-family: "Laila", serif;
+		font-weight: bolder;
+		font-style: normal;
+}
+
+/*Client Section*/
+#client-section{
+	height: 344px;
+
+}
+#client-section::before{
+	content:"";
+	position: absolute;
+	background: url('https://2.bp.blogspot.com/-4q6lRURaY_A/UV_0cLW37vI/AAAAAAAADvA/DXAIoZ0PhCE/s1600/fruits+mix+wallpaper+hd+1080.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 46%;
+	z-index: -1;
+	opacity: 0.3;
+
+}
+#clients{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#clients img{
+	height: 150px;
+}
+.client-item{
+	padding: 34px;
+}
+/*Contact Section*/
+#contact{
+	position: relative;
+}
+#contact::before{
+	content: "";
+	position: absolute;
+	background: url('https://kurtzdigitalstrategy.com/wp-content/uploads/2024/04/iStock-1450058572-scaled.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 0.3;
+
+}
+#contact-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 34px;
+	
+}
+#contact-box input,
+#contact-box textarea{
+	width: 100%;
+	padding: 0.5rem;
+	border-radius: 10px;
+	background-color: white;
+	border: 2px solid black;
+	font-family: "Sedan", serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+#contact-box form{
+	width: 45%;
+}
+#contact-box label{
+	margin: 0px 13px;
+	font-size: 1.3rem;
+	font-family: "Marcellus", serif;
+    font-weight: bold;
+}
+.form-group{
+	margin: 15px 0px;
+}
+
+footer{
+	background: black;
+	color: white;
+	padding: 9px 20px;
+}
+
+/*Utility Classes*/
+.h-primary{
+	font-family: "Laila", serif;
+	font-size: 3.5rem;
+	padding: 0px;
+}
+.h-secondary{
+	font-size: 2.75rem;
+	font-weight: bold;
+	padding: 10px;
+}
+.btn{
+	padding: 4px 18px;
+	border: 2px solid white;
+	background-color: rgb(86, 20, 20);
+	color:white ;
+	margin: 17px;
+	font-size: 1.5rem;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.btn:hover{
+	padding: 5px 20px;
+	border: 3px solid rgb(86, 20, 20);
+	color: rgb(86, 20, 20);
+	background-color:white ;
+	margin: 17px;
+	font-size: 1.8rem;
+	border-radius: 19px;
+	cursor: pointer;
+	font-family: "Kiwi Maru", serif;
+	font-weight: bolder;
+}
+
+.center{
+	text-align: center;
+}
+
