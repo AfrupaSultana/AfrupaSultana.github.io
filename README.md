@@ -1,1 +1,1 @@
-# AfrupaSultana.github.io
+# Kichu ulto palta korbina
